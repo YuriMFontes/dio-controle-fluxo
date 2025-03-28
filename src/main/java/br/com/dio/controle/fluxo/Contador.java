@@ -24,7 +24,7 @@ public class Contador {
         }else{
             int contagem = primeiroParametro - segundoParametro;
             for(int i = primeiroParametro; i <= segundoParametro; i++){
-                System.out.println(i);
+                System.out.println("Imprimindo o número " + i);
             }
         }
     }
