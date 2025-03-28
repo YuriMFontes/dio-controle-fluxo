@@ -22,8 +22,8 @@ public class Contador {
         if(primeiroParametro > segundoParametro){
             throw new ParametroInvalidosException();
         }else{
-            int contagem = primeiroParametro - segundoParametro;
-            for(int i = primeiroParametro; i <= segundoParametro; i++){
+            int contagem = segundoParametro - primeiroParametro;
+            for(int i = 1; i <= contagem; i++){
                 System.out.println("Imprimindo o número " + i);
             }
         }
